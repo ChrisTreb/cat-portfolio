@@ -1,0 +1,63 @@
+@media (max-width: 680px),
+screen and (orientation: portrait) {
+    body {
+        overflow-x: hidden;
+    }
+    h1 {
+        margin-bottom: 15%;
+        font-size: 20vw;
+    }
+    h2 {
+        font-size: 10vw;
+        margin: 5% 0;
+    }
+    p {
+        font-size: 1em;
+    }
+    i {
+        display: block;
+        margin: auto;
+        font-size: 2em;
+    }
+    li {
+        margin: 10% 0;
+    }
+    a.menu-item::before {
+        height: 2px;
+    }
+    #projects>div {
+        flex-wrap: wrap;
+    }
+    #projects>div>div {
+        width: 100%;
+    }
+    .projects-details {
+        display: flex;
+    }
+    .projects-details>div {
+        width: 25% !important;
+        display: flex;
+        align-items: center;
+    }
+    #about {
+        padding: 5%;
+    }
+    #about>div {
+        display: block;
+    }
+    #about>div>h2 {
+        position: unset;
+    }
+    #about>div>p {
+        left: 0;
+    }
+    .about-cat {
+        max-width: 100%;
+    }
+    form {
+        margin: 0;
+    }
+    #btn-top {
+        right: 5%;
+    }
+}
