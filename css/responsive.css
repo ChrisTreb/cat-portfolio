@@ -23,11 +23,17 @@ screen and (orientation: portrait) {
         margin: 10% 0;
     }
     label {
-        font-size: 1.2em;
+        font-size: 2em;
     }
     input,
     textarea {
-        font-size: 1.2em;
+        font-size: 2em;
+    }
+    input {
+        height: 80px;
+    }
+    button {
+        font-size: 2em;
     }
     a.menu-item::before {
         height: 2px;
@@ -62,7 +68,7 @@ screen and (orientation: portrait) {
         max-width: 100%;
     }
     form {
-        margin: 0;
+        margin: 1%;
     }
     #btn-top {
         right: 5%;
